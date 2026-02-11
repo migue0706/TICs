@@ -5,7 +5,7 @@ let opcion = parseInt(prompt("Escoge una opción:  1-Agregar 2-listar 3-salir"))
 document.writeln(opcion);
 let seguir = true;
 let datos = [];
-while (seguir) { 
+while(seguir) { 
     let opcion = parseInt(prompt("Escoge una opción:  1-Agregar 2-listar 3-salir"));
     switch(opcion) {
         case 1:
